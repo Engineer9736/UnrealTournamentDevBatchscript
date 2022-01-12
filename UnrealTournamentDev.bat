@@ -1,5 +1,5 @@
 @echo off
-del BDBMapVote4.u
+del YourPackageFilenameHere.u
 
 if %ERRORLEVEL% GEQ 1 (
 	echo Error while deleting the file, stopping batch file.
@@ -15,4 +15,4 @@ if %ERRORLEVEL% GEQ 1 (
 	exit 1
 )
 
-UnrealTournament.exe DM-Deck16][?Mutator=BDBMapVote4.BDBMapVote4
+UnrealTournament.exe DM-Deck16][?Mutator=YourPackageFilenameHere.YourMutatorClassHere
